@@ -22,22 +22,22 @@
 <body class="text-center" data-new-gr-c-s-check-loaded="14.1033.0" data-gr-ext-installed="" cz-shortcut-listen="true">
 
     <main class="form-signin">
-        <form>
+        <form action="/" method="POST">
             <img class="mb-4" src="public/images/img.jpg" alt="" width="72" height="57">
             <h1 class="h1 mb-3 fw-normal">Sayur Newsletter</h1>
             <h1 class="h3 mb-3 fw-normal">Sign up to my Newsletters</h1>
 
 
             <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Michael">
+                <input type="text" name="fName" class="form-control" id="floatingInput" placeholder="Michael">
                 <label for="floatingInput">Full Name</label>
             </div>
             <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Anderson">
+                <input type="text" name="lName" class="form-control" id="floatingInput" placeholder="Anderson">
                 <label for="floatingInput">Last Name</label>
             </div>
             <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@email.com">
+                <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@email.com">
                 <label for="floatingInput">Email</label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
